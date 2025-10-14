@@ -1,8 +1,8 @@
 from person import Person
 
 class Lecturer(Person):
-    def __init__(self, preferred_name="", other_names=None, capabilities=None):
-        super().__init__(preferred_name, other_names)
+    def __init__(self, personal_name="", capabilities=None):
+        super().__init__(personal_name)
         self.capabilities = capabilities or []
         self.students = []
 

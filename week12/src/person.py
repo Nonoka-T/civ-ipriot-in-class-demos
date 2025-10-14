@@ -9,7 +9,6 @@
 """
 
 class Person():
-
     def __init__(self, personal_name="", title=""):
         self.personal_name = personal_name
         self.title = title
