@@ -50,6 +50,18 @@ classDiagram
 
 > When I say that the patients are confidential, I do not mean that you should try and figure out some kind of authentication: I mean that they are private to the doctor class 😅
 
+#### Examples of how doctor will be called:
+```python
+doctor = Doctor("Shah")
+doctor.add_patient_to_queue("Sarah")
+# now patients is ["Sarah"]
+doctor.add_patient_to_queue("Diego")
+# now patients is ["Sarah", "Diego"]
+doctor.see_patient()
+# now patients is ["Diego"]
+# And "Sarah" is output to the console
+```
+
 #### 1.1 Reflect:
 - What does the `Doctor` get from `Person`?
 - Can you change a doctor's name? (should you?)
@@ -61,6 +73,6 @@ classDiagram
 3. Which attributes should be private, which should be public?
 4. Make your `Patient` class in a patient.py file.
 
-## Advanced 
+## Advanced
 We'll cover this next week, but what if you wanted to make your Doctor's list of patients into a list of `Patient`?
 
