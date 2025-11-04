@@ -1,8 +1,14 @@
 # Readme
 
-This is an example project, which you will recreate.
-
 The aim here is to write nice unit tests.
+
+1. Write a function that calculates the sum of two numbers
+> Call it `add` or similar, not `sum` (that is a built-in function)
+> Include a docstring!
+
+2. Write the unit tests that check:
+- that correct values are calculated for integer, floating point, and complex numbers (e.g., 2 – 1i is complex)
+- that a TypeError is raised if any of the arguments is not a valid type
 
 # Here are some common pitfalls while running your unittests:
 - [ ] Are modules importing correctly? If not:
