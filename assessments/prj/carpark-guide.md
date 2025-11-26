@@ -94,9 +94,9 @@ After reading the task requirements, you should be able to identify the classes,
 
 | Class Name | Attributes | Methods |
 | ---------- | ---------- | ------- |
-| `CarPark`    |            |         |
-| `Sensor`     |            |         |
-| `Display`    |            |         |
+| `CarPark`    | capacity, sensor |  get_available_bays(), add_sensor()    |
+| `Sensor`     | plate_number, occupied  | detect_car(), clear()   |
+| `Display`    | available_bays, message | show_message(), update_available_bays()  |
 
 **Additional evidencing:**
 Ensure you have completed the previous table and include at least two methods and attributes for each.
