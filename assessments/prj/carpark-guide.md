@@ -729,7 +729,8 @@ if __name__ == "__main__":
 1. Add a screenshot of the output of the unit tests. If any failed, add a screenshot of the error message and a screenshot after you have fixed the errors:
 
    ```markdown
-   ![Unit tests](screenshots/unit-tests.png)
+   ![Unit tests](screenshots/unit-tests.png)<img width="821" height="425" alt="Screenshot 2025-11-28 at 07 15 36" src="https://github.com/user-attachments/assets/97dc005a-5bd7-4374-b129-0455d7864f42" />
+
    ```
 
 2. Commit your changes to the local repository. Tag the commit with `s6` so your lecturer can find it:
