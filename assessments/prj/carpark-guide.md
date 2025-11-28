@@ -1101,7 +1101,8 @@ In your final submission, you must include any files you created or modified. Th
 1. Add a screenshot of the output of the `main.py` file:
 
    ```markdown
-   ![Main.py output](screenshots/main-py.png)
+   ![Main.py output](screenshots/main-py.png)<img width="821" height="443" alt="Screenshot 2025-11-28 at 19 01 45" src="https://github.com/user-attachments/assets/c84afba4-29e2-4eef-8e0b-4811e6a817bf" />
+
    ```
 
 > Required for evidencing competency:
