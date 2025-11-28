@@ -1058,7 +1058,8 @@ We are going to do the latter:
 After you have merged your branch to main, push to your remote with the s10 tag. Add a screenshot of the GitHub repository after pushing the tag, showing the CarPark class with the new methods:
 
 ```markdown
-![Added methods to the car park class](screenshots/methods-to-car-park.png)
+![Added methods to the car park class](screenshots/methods-to-car-park.png)<img width="693" height="388" alt="Screenshot 2025-11-28 at 17 08 35" src="https://github.com/user-attachments/assets/213b85c0-dee1-45df-b0df-a24718656cd3" />
+
 ```
 
 ### 2.14. Final step: build a car park
